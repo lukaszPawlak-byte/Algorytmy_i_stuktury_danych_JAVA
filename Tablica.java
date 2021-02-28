@@ -5,7 +5,7 @@ public class Tablica {
 	int max = 9;
 	int[] d = new int[n];
 	
-	static int[] tab(int[] k, int max, int min){		
+	int[] tab(int[] k, int max, int min){		
 		for (int i = 0; i < k.length; i++) {
 			k[i] = (int)(Math.random() * (max - min) + 1);
 		} // do for	
